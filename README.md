@@ -8,9 +8,9 @@ _tho i have an engineering background_
 
 
 -sleep
--eat
--gym 
--code repeat
+ -eat
+  -gym 
+   -code repeat
 ```sleepis priority 1```
 
 
