@@ -10,5 +10,5 @@ _tho i have an engineering background_
 ```sleepis priority 1```
 
 
-![lesgoo](https://static.wikia.nocookie.net/characterprofile/images/1/1e/SpiderGwen.png/revision/latest/scale-to-width-down/1470?cb=20201128183214)
+![lesgoo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCKCxvZRlVyuACp33wqwTZNo9FiY2E4Mv2-Bf0bhPfcaJHl4sfTNO-vtjVTSL9FRxgw_w&usqp=CAU)
 
