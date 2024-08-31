@@ -8,8 +8,8 @@ _tho i have an engineering background_
 
 
 -sleep
-*eat
-+ gym 
+-eat
+-gym 
 -code repeat
 ```sleepis priority 1```
 
