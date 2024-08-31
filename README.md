@@ -1,10 +1,10 @@
-# my-den
+# my-den k240940
 ## bscs
 ### 1f
 
-**im very sleepy**
-_i wanna goooooo home_
-~~not possible in rain~~
+**I enjoyed math and problem solving , so i chose cs**
+_tho i have an engineering background_
+~~~~
 
 >sleep eat code repeat
 ```sleep```
