@@ -7,10 +7,7 @@ _tho i have an engineering background_
 ~~its fun~~
 
 
--sleep
- -eat
-  -gym 
-   -code repeat
+>-sleep eat gym code repeat
 ```sleepis priority 1```
 
 
