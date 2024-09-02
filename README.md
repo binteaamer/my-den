@@ -4,10 +4,12 @@
 
 **I enjoyed math and problem solving , so i chose cs**
 _tho i have an engineering background_
-~~its fun~~
+~~its fun~
+-egsjrb
+-dsjewkwnssb
 
 
->-sleep eat gym code repeat
+>sleep eat gym code repeat
 ```sleepis priority 1```
 
 
