@@ -4,7 +4,7 @@
 
 **I enjoyed math and problem solving , so i chose cs**
 _tho i have an engineering background_
-~~its fun~~.\ 
+~~its fun~~
 my hobbies are 
 - playing basketball 
 - making abstract art
