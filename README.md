@@ -4,9 +4,9 @@
 
 **I enjoyed math and problem solving , so i chose cs**
 _tho i have an engineering background_
-~~its fun~
--egsjrb
--dsjewkwnssb
+~~its fun~~\ 
+- egsjrb
+- dsjewkwnssb
 
 
 >sleep eat gym code repeat
