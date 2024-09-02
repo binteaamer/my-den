@@ -5,8 +5,9 @@
 **I enjoyed math and problem solving , so i chose cs**
 _tho i have an engineering background_
 ~~its fun~~\ 
-- egsjrb
-- dsjewkwnssb
+my hobbies are 
+- playing basketball 
+- making abstract art
 
 
 >sleep eat gym code repeat
