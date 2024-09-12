@@ -1,4 +1,4 @@
-#include <stdio.h>
+clude <stdio.h>
 int main ()
 {int num ;
   char month ;
@@ -13,9 +13,10 @@ switch (month) {
          switch (num) {
          	case 0:
          	printf (" april ");
-         	
+         	break ;
          	case 1:
          	printf ("august");
+         	break;
          	default :
          	printf ("wrong input ");
          	}
@@ -24,19 +25,24 @@ switch (month) {
          switch (num) {
          	case 0:
          	printf (" january ");
+         	break;
          	case 1 :
          	printf (" june ");
+         	break;
          	case 2 :
-         	printf ("july ");}
+         	printf ("july ");
+			 break;
          	default:
-         	printf ("wrong input ");
+         	printf ("wrong input ");}
          	break;
   case 'm':
          switch (num) {
          	case 0:
          	printf (" may");
+         	break;
          	case 1 :
          	printf (" march");
+         	break;
          	default:
          	printf ("wrong input ");}
          	break;
@@ -45,12 +51,10 @@ switch (month) {
          switch (num) {
          	case 0:
          	printf (" feburary ");
+         	break;
          	default:
-         	printf ("wrong input ");
-         }
+         	printf ("wrong input ");}
          
-         break;
-
-	
+         break;	
 }
 }
