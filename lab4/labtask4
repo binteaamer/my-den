@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{ char input;
+ printf (" enter a charecter :\t");
+ scanf( "%c", &input);
+ if (input >='a' && input <='z'  ) {
+ 	printf ("input %c is small alphabet", input);}
+ 	
+else if (input >='A' && input <='Z' ) {
+ 	printf ("input %c is capital alphabet", input);}
+ 	
+else if  (input >='0'&& input <='9' ) {
+ 	printf ("input %C is a digit", input );}
+ 	
+else 
+ 	printf ("input %c is a special charecter", input);
+}
+
+ 
+ 
