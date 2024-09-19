@@ -5,4 +5,6 @@ printf("enter ph\n");
 scanf("%d", &ph);
 if (ph>7){ 
    if(ph<12)
-   printf( 
+      printf("alkaline");
+   else printf("very alkaline");}
+else 
