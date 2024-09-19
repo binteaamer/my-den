@@ -8,9 +8,9 @@ scanf("%f" , &fatgrams);
 if (calories<0 || fatgrams<0){
    printf("invalid input");}
 else {
-     calorietotal= fatgrams*9;
-    if (calorietotal < calories){
-        printf ("either the calories or fat grams were incorrectly entered.");}
-    else percent_calorie= (calories/calorietotal);
-         printf("your calorie percentage is: %.2f\n", percent_calorie);}
+      calorietotal= fatgrams*9;
+     if  (calorietotal > calories){
+         printf ("either the calories or fat grams were incorrectly entered.");}
+     else {percent_calorie= (calories/calorietotal);
+         printf("your calorie percentage is: %.2f\n", percent_calorie);}}
 return 0;}
