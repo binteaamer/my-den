@@ -7,4 +7,5 @@ if (ph>7){
    if(ph<12)
       printf("alkaline");
    else printf("very alkaline");}
-else 
+else if (ph==7) 
+
