@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main {
+int ph;
+printf("enter ph\n");
+scanf("%d", &ph);
+if (ph
