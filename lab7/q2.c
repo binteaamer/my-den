@@ -22,3 +22,30 @@ int main()
  }
   printf("a=%d\ne=%d\ni=%d\no=%d\nu=%d\n",a,e,i,o,u);
 }
+
+
+m2
+  	/* switch (ch) {
+  	 	case 'a':
+  	 	case 'A':
+  	 		a++;
+  	 	break;
+  	 	case 'e':
+  	 	case 'E':
+  	 		e++;
+  	 	break;
+  	 	case 'i':
+  	 	case 'I':
+  	 		i++;
+  	 	break;
+  	 	case 'o':
+  	 	case 'O':
+  	 		o++;
+  	 	break;
+  	 	case 'u':
+  	 	case 'U':
+  	 		u++;
+  	 	break;
+  	 	
+	   }*/
+  	 
