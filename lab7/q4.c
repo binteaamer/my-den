@@ -2,19 +2,21 @@
 
 int main() 
 {
-	char arr[100];
-	char *ptr= arr;
-	int length=0;
-	
-	printf("enter a string");
-	gets(arr);
-	while(!*ptr=='/0')  //counting length  
-	{
-	 ptr++;
-	length++;
+    char arr[100];
+    char *ptr = arr;
+    int length = 0;   
+    printf("Enter a string: ");
+    scanf("%99s", arr); // limiting input to 99 characters
+
+    // Counting length
+    while (*ptr != '\0') {
+        ptr++;
+        length++;
     }
-    printf("length=%d",length);
+    printf("Length = %d\n", length);
+    return 0;
 }
+
 
 
 reversing 
@@ -36,3 +38,17 @@ int main()
     }
 
     return 0;
+
+m2 
+#include<stdio.h>
+#include<string.h>
+int main (){
+	char str[5];
+	int i;
+	gets(str);
+	for (i=4;i>=0;i--)
+	printf(" %c", str[i]);
+}
+
+
+
