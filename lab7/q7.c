@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int arr[5], i, j, count;
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int arr[5], i, j, count=0;
+    //int n = sizeof(arr) / sizeof(arr[0]);
 
     // Storing elements
     for (i = 0; i < 5; i++) {
