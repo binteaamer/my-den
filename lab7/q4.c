@@ -19,7 +19,7 @@ int main()
 
 
 
-reversing 
+printing in reverse
 *#include <stdio.h>
 
 int main() 
@@ -49,6 +49,28 @@ int main (){
 	for (i=4;i>=0;i--)
 	printf(" %c", str[i]);
 }
+
+
+
+without pointers checking length and getting new array of reversed of input
+int main ()
+{  int i,length,flag=1;
+   char str[50];
+   char strR[50];
+   printf("enter a string\n");
+   scanf("%s",str);
+   i=0;
+   while (str[i]!='\0')
+    i++;// length
+   length=i;
+   printf("length=%d\n",length);
+//reversing 
+   for(i=0;i<length;i++)
+      {
+	   strR[i]=str[length-1-i];
+      }
+      strR[length]='\0';
+printf("reverse is: %s\n", strR);
 
 
 
