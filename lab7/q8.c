@@ -9,7 +9,7 @@ int main() {
     printf("Enter an expression (e.g., 20+10-30): ");
     scanf("%s", expression); // Read the expression as a string
 
-    // Step 2: Traverse the array
+    
     for (i = 0; expression[i] != '\0'; i++) {
         char char_current = expression[i];
         if (char_current >= '0' && char_current <= '9') {
@@ -21,7 +21,7 @@ int main() {
                 return 1;
             }
 
-            // Perform the last operation
+          
             if (last_operator == '+') {
                 result += current_number;
             } else if (last_operator == '-') {
@@ -46,9 +46,7 @@ int main() {
         } else if (last_operator == '-') {
             result -= current_number;
         }
-    }
-
-    // Step 3: Display the result
+    }  
     printf("Result: %d\n", result);
     return 0;
 }
