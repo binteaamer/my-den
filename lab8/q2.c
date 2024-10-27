@@ -9,22 +9,22 @@ int main() {
     printf("Enter the value of n (number of sets in each array): ");
     scanf("%d", &n);
     
-    int i, j, currentNum = start;
+    int i, j, k = start;//k is the number currently being added in the coloumn
 
     for (i = 0; i < 2; i++) { 
         for (j = 0; j < n; j++) {
             if (i == 0) { // Even array
-                while (currentNum % 2 != 0) currentNum--;
-                arr[i][j][0] = currentNum;
-                currentNum -= 2;
-                arr[i][j][1] = currentNum;
-                currentNum -= 2;
+                while (k % 2 != 0) k--;//to go one place back even to odd 
+                arr[i][j][0] = k;
+                k -= 2;//get next even number 
+                arr[i][j][1] = k;
+                k -= 2;
             } else { // Odd array
-                while (currentNum % 2 == 0) currentNum--;
-                arr[i][j][0] = currentNum;
-                currentNum -= 2;
-                arr[i][j][1] = currentNum;
-                currentNum -= 2;
+                while (k % 2 == 0) k--;
+                arr[i][j][0] = k;
+                k -= 2;
+                arr[i][j][1] = k;
+                k -= 2;
             }
         }
     }
