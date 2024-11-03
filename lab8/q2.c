@@ -16,7 +16,7 @@ int main() {
             if (i == 0) { 
                 while (k % 2 != 0) k--; 
                 arr[i][j][0] = k;
-                k -= 2;//get next even number 
+                k -= 2; 
                 arr[i][j][1] = k;
                 k -= 2;
             } else { // Odd array
