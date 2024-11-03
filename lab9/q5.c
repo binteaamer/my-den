@@ -6,12 +6,12 @@ in the main program to display the reversed string entered by the user.*/
 void reverse(char arr[], int n);
 int main(){
 	char str[10];  int i ;
-	printf("enter a string");
-	scnaf("%s", str);
-	reversed = reverese(str, 10);
+	printf("enter a string\n");
+	scanf("%s", str);
+	reverse(str, 10);
 }
-reverse(char arr[], int n)
+void reverse(char arr[], int n)
 {
 	strrev(arr);
-	printf("reversed string is ")
+	printf("reversed string is %s", arr);
 }
