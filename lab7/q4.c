@@ -6,9 +6,7 @@ int main()
     char *ptr = arr;
     int length = 0;   
     printf("Enter a string: ");
-    scanf("%99s", arr); // limiting input to 99 characters
-
-    // Counting length
+    scanf("%99s", arr); 
     while (*ptr != '\0') {
         ptr++;
         length++;
@@ -26,13 +24,9 @@ int main()
 {
     char str[5];
     int i;
-
-    // Reading 5 characters
     for (i = 0; i < 5; i++) {
-        scanf(" %c", &str[i]); // Note the space before %c to consume any leftover newline characters
+        scanf(" %c", &str[i]); 
     }
-
-    // Printing characters in reverse order
     for (i = 4; i >= 0; i--) {
         printf("%c", str[i]);
     }
@@ -61,10 +55,9 @@ int main ()
    scanf("%s",str);
    i=0;
    while (str[i]!='\0')
-    i++;// length
+    i++;
    length=i;
    printf("length=%d\n",length);
-//reversing 
    for(i=0;i<length;i++)
       {
 	   strR[i]=str[length-1-i];
