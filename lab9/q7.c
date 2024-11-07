@@ -5,7 +5,7 @@
 #define MAX_LEN 100
 
 void sortString(char arr[ROWS][MAX_LEN]) {
-    char temp[MAX_LEN]; // Temporary string for swapping
+    char temp[MAX_LEN]; 
 
     for (int i = 0; i < ROWS - 1; i++) {
         for (int j = 0; j < ROWS - i - 1; j++) {
