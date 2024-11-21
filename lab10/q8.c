@@ -15,7 +15,7 @@ int main ()
     printf("%d\n", array[i]);
   printf("enter the target element");
   scanf("%d", &target);
-  printf("enter the current index");
+ // printf("enter the current index");
   linearSearch( array ,size,target,0);}//starting the search from index o 
 
   void linearSearch( array [], int size, int target, int index){
