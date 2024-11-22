@@ -1,6 +1,4 @@
 # my-den k240940
-## bscs
-### 1f
 
 **I enjoyed math and problem solving , so i chose cs**
 _tho i have an engineering background_
